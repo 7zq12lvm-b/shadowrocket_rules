@@ -53,6 +53,16 @@ DOMAIN-SUFFIX,plasmascan.xyz,HK
 DOMAIN-SUFFIX,bitget.com,SG
 DOMAIN-SUFFIX,bitgetapp.com,SG
 DOMAIN-SUFFIX,bitgetapps.com,SG
+# Additional domains supplied in the Bitget QX ruleset; converted to Shadowrocket.
+DOMAIN-SUFFIX,bitget.site,SG
+DOMAIN-SUFFIX,bitgetnz.com,SG
+DOMAIN-SUFFIX,bitgetglobal.com,SG
+DOMAIN-SUFFIX,bitkeep.com,SG
+DOMAIN-SUFFIX,bitkeep.site,SG
+DOMAIN-SUFFIX,bitget-cdn.com,SG
+DOMAIN-SUFFIX,bitgetimg.com,SG
+DOMAIN-SUFFIX,bimg.cc,SG
+DOMAIN-SUFFIX,bitget.zendesk.com,SG
 
 # MEXC -> AU
 DOMAIN-SUFFIX,mexc.com,AU
