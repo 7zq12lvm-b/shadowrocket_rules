@@ -1,0 +1,53 @@
+#!name=Crypto Fixed Region
+#!desc=Bybit+MEXC AU | Krak+Kraken UK | Plasma One HK | Bitget SG
+
+[Rule]
+
+# Bybit -> AU
+DOMAIN-SUFFIX,bybit.com,AU
+DOMAIN-SUFFIX,bycsi.com,AU
+DOMAIN-SUFFIX,bytick.com,AU
+DOMAIN-SUFFIX,byapis.com,AU
+DOMAIN-SUFFIX,bycbe.com,AU
+DOMAIN-SUFFIX,bymj.io,AU
+DOMAIN-SUFFIX,byabcde.com,AU
+DOMAIN-SUFFIX,byapps.net,AU
+DOMAIN-SUFFIX,byd3c3.com,AU
+DOMAIN-SUFFIX,bybit.biz,AU
+DOMAIN-SUFFIX,bybdc6.com,AU
+DOMAIN-SUFFIX,bybit-global.com,AU
+DOMAIN-SUFFIX,bybit.cloud,AU
+DOMAIN-SUFFIX,bybitglobal.com,AU
+DOMAIN-SUFFIX,bybit-aws.com,AU
+DOMAIN-SUFFIX,byffbb.com,AU
+DOMAIN-SUFFIX,bybit.app,AU
+DOMAIN-SUFFIX,bybit.com.hk,AU
+DOMAIN-SUFFIX,bybit.nl,AU
+DOMAIN,bybit-exchange.github.io,AU
+DOMAIN,bybit.ada.support,AU
+
+# Krak + Kraken -> UK
+DOMAIN-SUFFIX,kraken.com,UK
+DOMAIN-SUFFIX,kraken.onl,UK
+DOMAIN-SUFFIX,krak.app,UK
+DOMAIN,kraken.zendesk.com,UK
+
+# Plasma One -> HK
+DOMAIN-SUFFIX,plasma.to,HK
+DOMAIN-SUFFIX,plasma.org,HK
+DOMAIN-SUFFIX,plasmascan.to,HK
+DOMAIN-SUFFIX,plasmascan.xyz,HK
+
+# Bitget -> SG
+DOMAIN-SUFFIX,bitget.com,SG
+DOMAIN-SUFFIX,bitgetapp.com,SG
+DOMAIN-SUFFIX,bitgetapps.com,SG
+
+# MEXC -> AU
+DOMAIN-SUFFIX,mexc.com,AU
+DOMAIN-SUFFIX,mexc.co,AU
+DOMAIN-SUFFIX,mocortech.com,AU
+DOMAIN-SUFFIX,greentreeone.com,AU
+DOMAIN-SUFFIX,hotbookzone.com,AU
+DOMAIN-SUFFIX,coldbookfly.ru,AU
+DOMAIN-SUFFIX,flytogarden.com,AU
