@@ -26,6 +26,17 @@ DOMAIN-SUFFIX,bybit.nl,AU
 DOMAIN,bybit-exchange.github.io,AU
 DOMAIN,bybit.ada.support,AU
 
+# Additional Bybit candidates from community lists; ownership not independently verified.
+# https://github.com/Mattease/Bybit-SRS-RULES/blob/main/bybit.list
+# https://github.com/0bit2x/bybit/blob/main/bybit.list
+DOMAIN-SUFFIX,byabcd.com,AU
+DOMAIN-SUFFIX,bybitgeorgia.ge,AU
+DOMAIN-SUFFIX,bynbc.com,AU
+DOMAIN-SUFFIX,jbybit.com,AU
+DOMAIN-SUFFIX,wsot2022.com,AU
+DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com,AU
+DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de,AU
+
 # Krak + Kraken -> UK
 DOMAIN-SUFFIX,kraken.com,UK
 DOMAIN-SUFFIX,kraken.onl,UK
