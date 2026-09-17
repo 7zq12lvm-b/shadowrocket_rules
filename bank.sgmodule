@@ -1,0 +1,41 @@
+#!name=Bank HK
+#!desc=HSBC | 大象银行 | 众安银行 | Wise -> HK
+
+# Source: https://github.com/yeahwu/Rules-For-Quantumult-X/blob/main/Rules/Services/Bank.list
+# Converted for Shadowrocket; uses the existing HK policy.
+# Shared analytics/service domains are preserved from upstream.
+
+[Rule]
+
+# > >> HK Bank
+
+# HSBC
+DOMAIN,c-hsbc.lytics.io,HK
+DOMAIN,mobile.eum-appdynamics.com,HK
+DOMAIN,tags.tiqcdn.com,HK
+DOMAIN,hsbc.edge.sdk.awswaf.com,HK
+DOMAIN,cdnbc.wup.hsbc.com.hk,HK
+DOMAIN,cdn.optimizely.com,HK
+DOMAIN,log-58144bf0.we-stats.com,HK
+DOMAIN-SUFFIX,tealiumiq.com,HK
+DOMAIN-SUFFIX,hsbc.com.hk,HK
+DOMAIN-SUFFIX,online-metrix.net,HK
+DOMAIN-SUFFIX,cloud1.vv1865.com,HK
+DOMAIN-SUFFIX,liveperson.net,HK
+DOMAIN-SUFFIX,lpsnmedia.net,HK
+
+# 大象银行
+DOMAIN-SUFFIX,elebank.com,HK
+DOMAIN-SUFFIX,appsflyersdk.com,HK
+# Disabled upstream (Quantumult X syntax): HOST-WILDCARD,api*.futunn.com,Bank
+
+# 众安银行
+DOMAIN-SUFFIX,za.group,HK
+DOMAIN-SUFFIX,zainvest.group,HK
+DOMAIN-SUFFIX,crashlytics.com,HK
+DOMAIN-SUFFIX,zajourney.com,HK
+DOMAIN,app-measurement.com,HK
+
+# Wise
+DOMAIN,api.mixpanel.com,HK
+DOMAIN-SUFFIX,wise.com,HK
