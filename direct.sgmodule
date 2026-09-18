@@ -1,0 +1,21 @@
+#!name=Direct Rules
+#!desc=直连规则：同程旅行 / 艺龙及其子域名 -> DIRECT
+
+# Sources:
+# https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/TongCheng/TongCheng.list
+# https://github.com/v2fly/domain-list-community/blob/master/data/tongcheng
+# Verified: 2026-09-18
+# DOMAIN-SUFFIX matches each domain and all of its subdomains.
+# Covers all entries in the above TongCheng lists; shared third-party services are not included.
+
+[Rule]
+
+# 同程旅行 / 艺龙
+DOMAIN-SUFFIX,17u.cn,DIRECT
+DOMAIN-SUFFIX,17u.net,DIRECT
+DOMAIN-SUFFIX,17usoft.com,DIRECT
+DOMAIN-SUFFIX,17usoft.net,DIRECT
+DOMAIN-SUFFIX,40017.cn,DIRECT
+DOMAIN-SUFFIX,elong.com,DIRECT
+DOMAIN-SUFFIX,elongstatic.com,DIRECT
+DOMAIN-SUFFIX,ly.com,DIRECT
