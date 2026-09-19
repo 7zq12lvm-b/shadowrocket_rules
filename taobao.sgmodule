@@ -1,0 +1,34 @@
+#!name=Taobao HK
+#!desc=淘宝 / 天猫相关域名 -> HK
+
+# Source: https://github.com/v2fly/domain-list-community/blob/master/data/alibaba
+# Verified: 2026-09-19
+# Uses only the upstream "淘宝" section to avoid routing the entire Alibaba ecosystem through HK.
+# DOMAIN-SUFFIX matches each domain and all of its subdomains.
+
+[Rule]
+
+# 淘宝 / 天猫
+DOMAIN-SUFFIX,1688.com,HK
+DOMAIN-SUFFIX,duanqu.com,HK
+DOMAIN-SUFFIX,etao.com,HK
+DOMAIN-SUFFIX,juhuasuan.com,HK
+DOMAIN-SUFFIX,lingshoujia.com,HK
+DOMAIN-SUFFIX,mashort.cn,HK
+DOMAIN-SUFFIX,pailitao.com,HK
+DOMAIN-SUFFIX,taobao.com,HK
+DOMAIN-SUFFIX,taobao.net,HK
+DOMAIN-SUFFIX,taobao.org,HK
+DOMAIN-SUFFIX,taobaocdn.com,HK
+DOMAIN-SUFFIX,taobizhong.com,HK
+DOMAIN-SUFFIX,taopiaopiao.com,HK
+DOMAIN-SUFFIX,taotian.com,HK
+DOMAIN-SUFFIX,tb.cn,HK
+DOMAIN-SUFFIX,tbcache.com,HK
+DOMAIN-SUFFIX,tbcdn.cn,HK
+DOMAIN-SUFFIX,tburl.in,HK
+DOMAIN-SUFFIX,tmall.com,HK
+DOMAIN-SUFFIX,tmall.hk,HK
+DOMAIN-SUFFIX,tmall.ru,HK
+DOMAIN-SUFFIX,tmalltv.com,HK
+DOMAIN-SUFFIX,tmjl.ai,HK
