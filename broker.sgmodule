@@ -1,0 +1,76 @@
+#!name=Broker HK
+#!desc=Schwab | IBKR | BBAE | thinkorswim | Firstrade -> HK
+
+# Shadowrocket module; requires an existing policy named HK.
+# DOMAIN-SUFFIX covers both the root domain and all its subdomains.
+# Sources checked: 2026-10-04. Embedded snapshot, not an auto-updating RULE-SET.
+# Community domain sets:
+# https://github.com/v2fly/domain-list-community/blob/master/data/schwab
+# https://github.com/v2fly/domain-list-community/blob/master/data/ibkr
+# https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/Proxy/Proxy_All.list
+# Additional endpoints:
+# https://client.schwab.com/ (schwabcdn.com page resources)
+# https://trade.thinkorswim.com/ (schwab.tech / schwabcloud.com CSP)
+# https://www.schwab.com/trading/thinkorswim
+# https://tos.mx/center/release/rel-04-22-2023
+# https://www.interactivebrokers.com/download/IB-Host-and-Ports.pdf
+# https://www.bbae.com/
+# https://github.com/ImNotOssy/BBAE_investing_API/blob/main/bbae_invest_api/bbae_api.py
+# https://www.firstrade.com/
+# https://help.firstrade.info/en/articles/9268512-firstrade-domains
+# Shared analytics/CDN providers are not routed wholesale.
+# App-only third-party endpoints and direct-IP connections may require
+# additional rules after inspecting Shadowrocket connection logs.
+
+[Rule]
+
+# Charles Schwab / 嘉信理财
+DOMAIN-SUFFIX,aboutschwab.com,HK
+DOMAIN-SUFFIX,schwab.co.uk,HK
+DOMAIN-SUFFIX,schwab.com,HK
+DOMAIN-SUFFIX,schwab.com.cn,HK
+DOMAIN-SUFFIX,schwab.com.hk,HK
+DOMAIN-SUFFIX,schwab.com.sg,HK
+DOMAIN-SUFFIX,schwabassetmanagement.com,HK
+DOMAIN-SUFFIX,schwabplan.com,HK
+DOMAIN-SUFFIX,schwabcdn.com,HK
+DOMAIN-SUFFIX,schwab.tech,HK
+DOMAIN-SUFFIX,schwabcloud.com,HK
+
+# Interactive Brokers / 盈透证券
+DOMAIN-SUFFIX,ibkr.ca,HK
+DOMAIN-SUFFIX,ibkr.co.in,HK
+DOMAIN-SUFFIX,ibkr.co.uk,HK
+DOMAIN-SUFFIX,ibkr.com,HK
+DOMAIN-SUFFIX,ibkr.com.au,HK
+DOMAIN-SUFFIX,ibkr.com.hk,HK
+DOMAIN-SUFFIX,ibkr.com.sg,HK
+DOMAIN-SUFFIX,ibkr.eu,HK
+DOMAIN-SUFFIX,ibkr.ie,HK
+DOMAIN-SUFFIX,ibkrguides.com,HK
+DOMAIN-SUFFIX,ibllc.com,HK
+DOMAIN-SUFFIX,interactivebrokers.ca,HK
+DOMAIN-SUFFIX,interactivebrokers.co.in,HK
+DOMAIN-SUFFIX,interactivebrokers.co.jp,HK
+DOMAIN-SUFFIX,interactivebrokers.co.uk,HK
+DOMAIN-SUFFIX,interactivebrokers.com,HK
+DOMAIN-SUFFIX,interactivebrokers.com.au,HK
+DOMAIN-SUFFIX,interactivebrokers.com.hk,HK
+DOMAIN-SUFFIX,interactivebrokers.com.sg,HK
+DOMAIN-SUFFIX,interactivebrokers.eu,HK
+DOMAIN-SUFFIX,interactivebrokers.ie,HK
+
+# BBAE
+DOMAIN-SUFFIX,bbae.com,HK
+DOMAIN-SUFFIX,bbaepro.com,HK
+# Dedicated AWS WAF endpoint observed on www.bbae.com and trading.bbae.com.
+DOMAIN,c32f65d02432.edge.sdk.awswaf.com,HK
+
+# thinkorswim / TD Ameritrade
+DOMAIN-SUFFIX,thinkorswim.com,HK
+DOMAIN-SUFFIX,tos.mx,HK
+DOMAIN-SUFFIX,tdameritrade.com,HK
+
+# Firstrade / 第一证券
+DOMAIN-SUFFIX,firstrade.com,HK
+DOMAIN-SUFFIX,firstrade.info,HK
