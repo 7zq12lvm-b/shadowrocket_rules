@@ -1,5 +1,5 @@
 #!name=Crypto Fixed Region
-#!desc=Bybit+MEXC AU | Krak+Kraken UK | Plasma One HK | Bitget SG
+#!desc=Bybit+MEXC AU | Krak+Kraken UK | Plasma One HK | Bitget SG | Binance SG1
 
 [Rule]
 
@@ -72,3 +72,19 @@ DOMAIN-SUFFIX,greentreeone.com,AU
 DOMAIN-SUFFIX,hotbookzone.com,AU
 DOMAIN-SUFFIX,coldbookfly.ru,AU
 DOMAIN-SUFFIX,flytogarden.com,AU
+
+# Binance -> SG1
+# Includes API/WebSocket subdomains, mobile endpoints and static assets.
+# Community domain list: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Binance
+DOMAIN-SUFFIX,binance.com,SG1
+DOMAIN-SUFFIX,binance.me,SG1
+DOMAIN-SUFFIX,binance.cloud,SG1
+DOMAIN-SUFFIX,binance.vision,SG1
+DOMAIN-SUFFIX,binancecnt.com,SG1
+DOMAIN-SUFFIX,binancefuture.com,SG1
+DOMAIN-SUFFIX,bnbstatic.com,SG1
+DOMAIN-SUFFIX,bnappzh.co,SG1
+DOMAIN-SUFFIX,bnbzh.ac,SG1
+DOMAIN-SUFFIX,bntrace.com,SG1
+DOMAIN-SUFFIX,saasexch.cc,SG1
+DOMAIN-SUFFIX,saasexch.com,SG1
